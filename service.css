@@ -1,0 +1,53 @@
+header nav{
+    background-color: blue;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:7px 20px;
+}
+header nav a{
+    margin:15px;
+}
+main{
+    display:flex;
+}
+main{
+    justify-content:space-between;
+}
+div img{
+    position:relative;
+    top:14px;
+}
+h1{
+    color:black;
+    font-size: xx-large;
+    text-align:center;
+} 
+.par{
+    color:black;
+    font-style: oblique;
+    font-weight: bolder;
+}
+button hover{
+    background-color:aqua;
+}
+
+
+.mina div,#test{
+     border-style:groove;
+    background-color: azure;
+    background-size: cover;
+    padding:5px;
+    margin: 6px;
+}
+.mina{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
