@@ -33,21 +33,41 @@ button hover{
 }
 
 
-.mina div,#test{
+.mina ,.mina1 ,#test{
      border-style:groove;
     background-color: azure;
     background-size: cover;
     padding:5px;
     margin: 6px;
 }
-.mina{
-    display: flex;
-    justify-content: center;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.i{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+    
     text-align: center;
+}
+.mina{
+    grid-column: 1/2;
+}
+.p{
+    border-style: groove;
+    background-color: azure;
+    background-size: cover;
+    padding:5px;
+    margin:6px;
+    
+    grid-column: 1/3;
+    grid-row: 2/-1;
+
+}
+.mina1{
+    grid-column: 2/3;
+}
+#test{
+    grid-column: 3/-1;
+    grid-row: 1/-1;
 }
